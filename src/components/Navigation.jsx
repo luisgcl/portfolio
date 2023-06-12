@@ -98,7 +98,7 @@ const Navigation = ({
                 href="#sobremi"
                 onClick={handleClick}
               >
-                Sobre mi
+                Sobremi
               </a>
             </li>
             <li onClick={playAudio}>
