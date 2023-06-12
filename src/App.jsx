@@ -111,7 +111,7 @@ function App() {
           <div className={darkMode ? "image" : "image2"}>
             {/* Un span con una clase que se aplica condicionalmente en función del valor de darkMode */}
             <span className={`${darkMode ? "animate2" : "animate2b"}`}></span>
-            {/* Un span con una clase que se aplica condicionalmente en función del valor de animateClicked */}
+            {/* Un span con una clase que se aplica condicionalmente en función del valor de animateClicked. */}
             <span
               className={`  ${
                 darkMode
