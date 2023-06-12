@@ -32,7 +32,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
       <div className=" flex flex-wrap justify-center items-center gap-2 span">
         <div className="w-full md:w-1/4 h-40 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
-          <a target="_blank" href="">
+          <a target="_blank" href="https://portfolio-luisgcl.vercel.app/">
             <img
               className="w-full h-36 rounded-t-lg"
               src={portfolio}
@@ -47,7 +47,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
             </p>
             <p className="pb-4">Html, Css, Javascript, React, Tailwindcss</p>
           </div>
-          <a target="_blank" href="">
+          <a target="_blank" href="https://github.com/luisgcl/portfolio">
             <button
               className={`w-full p-2 rounded-lg ${
                 darkMode ? "bg-gray-800" : " bg-gray-500"
