@@ -19,9 +19,9 @@ const Skills = ({ darkMode, animateClicked }) => {
   return (
     <div
       id="skills"
-      className={`h-screen pt-28   gap-4 ${
-        darkMode ? "bg-black" : "bg-white"
-      }  ${darkMode ? "text-white" : "text-black"}`}
+      className={` pt-28 pb-10  gap-4 ${darkMode ? "bg-black" : "bg-white"}  ${
+        darkMode ? "text-white" : "text-black"
+      }`}
     >
       <p className="text-4xl text-center font-bold pb-6 span">
         <span className={`${darkMode ? "animate" : "animateb"}`}></span>

@@ -109,7 +109,11 @@ function App() {
         </div>
 
         {/* Un div con una clase de "w-2/5" y un elemento secundario que contiene una imagen. Las clases aplicadas a este div también se aplican condicionalmente en función del valor de darkMode. */}
-        <div className={`w-2/5 pt-4 home ${darkMode ? "home" : "home2"}`}>
+        <div
+          className={`w-2/5 bg-red-300 pt-4 home ${
+            darkMode ? "home" : "home2"
+          }`}
+        >
           <div className={` ${darkMode ? "image" : "image2"}`}>
             {/* Un span con una clase que se aplica condicionalmente en función del valor de darkMode */}
             <span className={`${darkMode ? "animate2" : "animate2b"}`}></span>
