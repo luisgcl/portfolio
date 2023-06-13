@@ -66,7 +66,7 @@ const Navigation = ({
         </div>
         {/* Un div con varias clases y varios elementos secundarios, incluyendo una lista de enlaces */}
         <div
-          className={`md:mt-0 sm:mt-5  flex gap-4 text-white md:p-2 span ${
+          className={`md:mt-0 sm:mt-5 px-0 flex gap-4 text-white md:p-2 span ${
             darkMode ? "text-white" : "text-black"
           }`}
         >
@@ -74,14 +74,16 @@ const Navigation = ({
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           {/* Una lista de enlaces con varias clases y controladores de eventos onClick que llaman a la función handleClick */}
           <ul
-            className={`sm:pt-5 md:pt-0 text-xs md:text-xl flex gap-4 text-white span ${
+            className={` p-2 border rounded-xl ${
+              darkMode ? "bg-black" : "bg-white"
+            }  text-xs md:text-xl flex gap-3 md:gap-4 text-white span ${
               darkMode ? "text-white" : "text-black"
             }`}
           >
             <span className={` ${animateClicked && "animate"}`}></span>
             <li onClick={playAudio}>
               <a
-                className={`sm:p-0 md:p-2   ${
+                className={`sm:p-0  md:p-2  ${
                   darkMode ? "text-white navigation" : "text-black navigationw"
                 }`}
                 href="#inicio"
@@ -157,7 +159,7 @@ const Navigation = ({
         </div>
         {/* Un div con varias clases y un botón que llama a la función toggleDarkMode */}
         <div
-          className={`hidden sm:block border-2 rounded-full md:p-2  ${
+          className={`hidden sm:block border-2 rounded-full md:p-4  ${
             darkMode ? "" : "border-black"
           }`}
         >

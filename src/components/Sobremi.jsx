@@ -10,7 +10,7 @@ const Sobremi = ({ darkMode, animateClicked }) => {
   return (
     <div
       id="sobremi"
-      className={`pt-5 about ${darkMode ? "bg-black" : "bg-white"} ${
+      className={`pt-8 about ${darkMode ? "bg-black" : "bg-white"} ${
         darkMode ? "text-white" : "text-black"
       }`}
     >

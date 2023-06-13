@@ -28,11 +28,11 @@ function App() {
         />
         {/* Un div con una clase de "w-2/3" y varios elementos secundarios, incluyendo una foto de perfil, un nombre, un título de trabajo, una breve descripción y un botón para ver el CV del desarrollador */}
         <div
-          className={`flex justify-center items-center w-3/5 ${
+          className={`flex md:px-10  justify-center items-center w-4/5 ${
             darkMode ? "text-white" : "text-black"
           }`}
         >
-          <div className=" w-2/3 flex-wrap">
+          <div className=" flex-wrap">
             <div className="">
               {/* Un span con una clase que se aplica condicionalmente en función del valor de darkMode */}
               <span className={`${darkMode ? "animatex" : "animatexb"}`}></span>
@@ -48,11 +48,13 @@ function App() {
                 ></span>
               </p>
             </div>
-            <div>
+            <div className="">
               {/* Un span con una clase que se aplica condicionalmente en función del valor de darkMode */}
               <span className={`${darkMode ? "animate" : "animateb"}`}></span>
               {/* Un párrafo con varias clases y un contenido de texto */}
-              <p className="text-2xl md:text-5xl font-bold font-sans my-5 text-gray-700 slice span">
+              <p
+                className={`text-2xl md:text-5xl font-bold font-sans my-5 text-gray-700 slice span`}
+              >
                 Frontend Developer.
                 {/* Un span con una clase que se aplica condicionalmente en función del valor de animateClicked */}
                 <span
@@ -107,8 +109,8 @@ function App() {
         </div>
 
         {/* Un div con una clase de "w-2/5" y un elemento secundario que contiene una imagen. Las clases aplicadas a este div también se aplican condicionalmente en función del valor de darkMode. */}
-        <div className={` w-2/5 pt-4 home ${darkMode ? "home" : "home2"}`}>
-          <div className={darkMode ? "image" : "image2"}>
+        <div className={`w-2/5 pt-4 home ${darkMode ? "home" : "home2"}`}>
+          <div className={` ${darkMode ? "image" : "image2"}`}>
             {/* Un span con una clase que se aplica condicionalmente en función del valor de darkMode */}
             <span className={`${darkMode ? "animate2" : "animate2b"}`}></span>
             {/* Un span con una clase que se aplica condicionalmente en función del valor de animateClicked. */}

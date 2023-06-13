@@ -7,11 +7,8 @@
     white-space: nowrap;
     border-right: 4px solid;
     width: 18ch;
-    animation: typing 3s steps(18),
+    animation: typing 3s steps(17),
     blink .5s infinite step-end alternate;
- 
-    
-    
     overflow: hidden;
     animation-iteration-count: infinite;
     /* animation-duration: 2s; */
@@ -24,6 +21,26 @@
     @keyframes blink {
     50% {border-color: transparent;}
     }
+
+    .slice2 {
+        display: block;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 18ch;
+        /* animation: typing 3s steps(17), */
+        /* blink .5s infinite step-end alternate; */
+        overflow: hidden;
+        animation-iteration-count: infinite;
+        /* animation-duration: 2s; */
+        animation-fill-mode: both;
+        animation-delay: 1.5s;
+        }
+        /* @keyframes typing {
+        from {width: 0;}
+        }
+        @keyframes blink {
+        50% {border-color: transparent;}
+        } */
 
     html {
         scroll-behavior: smooth;
