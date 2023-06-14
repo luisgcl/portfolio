@@ -29,8 +29,8 @@ const Portfolio = ({ darkMode, animateClicked }) => {
         ></span>
       </p>
 
-      <div className=" flex flex-wrap justify-center items-center gap-2 span">
-        <div className="w-full sm:w-1/4 md:h-80 portfolio">
+      <div className="  justify-center items-center gap-2 md:px-10 lg:px-32 sm:columns-1 md:columns-2 lg:columns-3">
+        <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a target="_blank" href="https://portfolio-luisgcl.vercel.app/">
             <img
@@ -41,7 +41,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
             <p className="text-2xl">Portfolio</p>
-            <p className=" text-gray-500 pb-2">
+            <p className=" text-gray-500 pb-2 h-14">
               Portfolio personal que muestra mis datos y los diferentes
               proyectos realizados.
             </p>
@@ -66,14 +66,14 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           ></span>
         </div>
 
-        <div className="w-full md:w-1/4 md:h-80 portfolio">
+        <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a target="_blank" href="https://movies-luisgcl.vercel.app/">
             <img className="w-full h-36 rounded-t-lg" src={movies} alt="img" />
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
             <p className="text-2xl">Página de Películas</p>
-            <p className="text-gray-500 pb-2">
+            <p className="text-gray-500 pb-2 h-14">
               Página que muestra todas las películas antiguas, populares y
               próximas por salir.
             </p>
@@ -100,15 +100,15 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           ></span>
         </div>
 
-        <div className="w-full sm:w-1/4 md:h-80 portfolio">
+        <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a target="_blank" href="https://new-anime.vercel.app/">
             <img className="w-full h-36 rounded-t-lg" src={animes} alt="img" />
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
             <p className="text-2xl">Página de Animes</p>
-            <p className="text-gray-500 pb-2">
-              Página que muestra todos los diferentes tipos de animes
+            <p className="text-gray-500 pb-2 h-14">
+              Página que muestra todos los diferentes tipos de animes y ovas
             </p>
             <p className="pb-3">Css, Javascript, React, Redux, Bootstrap</p>
           </div>
@@ -131,14 +131,14 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           ></span>
         </div>
 
-        <div className="w-full sm:w-1/4 md:h-80 portfolio">
+        <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a target="_blank" href="https://musical-pie-1a70f9.netlify.app/">
             <img className="w-full h-36 rounded-t-lg" src={criptos} alt="img" />
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
             <p className="text-2xl">Cotizador de Criptomonedas</p>
-            <p className="text-gray-500 pb-2">
+            <p className="text-gray-500 pb-2 h-14">
               Página en la que puedes ver los diferentes tipos de criptomonedas
               y su valor actual.
             </p>
@@ -163,7 +163,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           ></span>
         </div>
 
-        <div className="w-full sm:w-1/4 md:h-80 portfolio">
+        <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a
             target="_blank"
@@ -173,7 +173,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
             <p className="text-2xl">Control de Presupuesto</p>
-            <p className="text-gray-500 pb-2">
+            <p className="text-gray-500 pb-2 h-14">
               Página en la que puedes llevar el control de los gastos de un
               presupuesto.
             </p>
@@ -198,7 +198,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           ></span>
         </div>
 
-        <div className="w-full sm:w-1/4 md:h-80 portfolio">
+        <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a
             target="_blank"
@@ -212,7 +212,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
             <p className="text-2xl">Administrador de pacientes.</p>
-            <p className="text-gray-500 pb-2">
+            <p className="text-gray-500 pb-2 h-14">
               Página que administra los pacientes de una veterinaria ficticia.
             </p>
             <p className="pb-3">
