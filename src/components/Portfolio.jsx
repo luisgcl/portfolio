@@ -29,7 +29,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
         ></span>
       </p>
 
-      <div className="  justify-center items-center gap-2 md:px-10 lg:px-32 sm:columns-1 md:columns-2 lg:columns-3">
+      <div className="  justify-center items-center gap-2 md:px-8 lg:px-32 sm:columns-1 md:columns-2 lg:columns-3">
         <div className="w-full  md:h-80 portfolio">
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           <a target="_blank" href="https://portfolio-luisgcl.vercel.app/">
@@ -137,12 +137,14 @@ const Portfolio = ({ darkMode, animateClicked }) => {
             <img className="w-full h-36 rounded-t-lg" src={criptos} alt="img" />
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
-            <p className="text-2xl">Cotizador de Criptomonedas</p>
+            <p className="text-2xl md:text-xl">Cotizador de Criptomonedas</p>
             <p className="text-gray-500 pb-2 h-14">
               Página en la que puedes ver los diferentes tipos de criptomonedas
               y su valor actual.
             </p>
-            <p className="pb-3">Javascript, React, Styled Components.</p>
+            <p className="pb-3 md:pb-4 lg:pb-3">
+              Javascript, React, Styled Components.
+            </p>
           </div>
           <a target="_blank" href="https://github.com/luisgcl/criptos-react">
             <button
@@ -211,11 +213,11 @@ const Portfolio = ({ darkMode, animateClicked }) => {
             />
           </a>
           <div className="px-3 flex flex-wrap justify-center items-center">
-            <p className="text-2xl">Administrador de pacientes.</p>
+            <p className="text-2xl md:text-xl">Administrador de pacientes.</p>
             <p className="text-gray-500 pb-2 h-14">
               Página que administra los pacientes de una veterinaria ficticia.
             </p>
-            <p className="pb-3">
+            <p className="pb-3 md:pb-5 lg:pb-3 md:text-sm lg:text-base">
               Javascript, React, Tailwindcss, LocalStorage.
             </p>
           </div>

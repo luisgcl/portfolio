@@ -53,7 +53,7 @@ function App() {
               <span className={`${darkMode ? "animate" : "animateb"}`}></span>
               {/* Un párrafo con varias clases y un contenido de texto */}
               <p
-                className={`text-2xl md:text-5xl font-bold font-sans my-5 text-gray-700 slice span`}
+                className={`text-2xl xl:text-5xl font-bold font-sans my-5 text-gray-700 slice span`}
               >
                 Frontend Developer.
                 {/* Un span con una clase que se aplica condicionalmente en función del valor de animateClicked */}

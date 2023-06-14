@@ -48,7 +48,7 @@ const Navigation = ({
         } z-10  `}
       >
         {/* Un div con una clase de "hidden sm:block p-2 span" y varios elementos secundarios */}
-        <div onClick={playAudio} className=" hidden sm:block p-2 span">
+        <div onClick={playAudio} className=" hidden xl:block p-2 span">
           {/* Un span con una clase que se aplica condicionalmente en función del valor de darkMode */}
           <span className={`${darkMode ? "animate" : "animateb"}`}></span>
           {/* Un enlace con una clase y un controlador de eventos onClick que llama a la función handleClick */}
@@ -159,7 +159,7 @@ const Navigation = ({
         </div>
         {/* Un div con varias clases y un botón que llama a la función toggleDarkMode */}
         <div
-          className={`hidden sm:block border-2 rounded-full md:p-4  ${
+          className={`hidden xl:block border-2 rounded-full md:p-4  ${
             darkMode ? "" : "border-black"
           }`}
         >

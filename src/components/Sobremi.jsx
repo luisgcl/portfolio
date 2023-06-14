@@ -10,9 +10,9 @@ const Sobremi = ({ darkMode, animateClicked }) => {
   return (
     <div
       id="sobremi"
-      className={`pt-8 about ${darkMode ? "bg-black" : "bg-white"} ${
-        darkMode ? "text-white" : "text-black"
-      }`}
+      className={`pt-16 md:pt-28 lg:pt-12 about ${
+        darkMode ? "bg-black" : "bg-white"
+      } ${darkMode ? "text-white" : "text-black"}`}
     >
       {/* Un div con una clase y un párrafo con varias clases y elementos secundarios */}
       <div className="">
