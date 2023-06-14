@@ -77,7 +77,7 @@ const Portfolio = ({ darkMode, animateClicked }) => {
               Página que muestra todas las películas antiguas, populares y
               próximas por salir.
             </p>
-            <p className="pb-3  flex flex-wrap justify-center items-center">
+            <p className="pb-3 lg:pb-2  flex flex-wrap justify-center items-center">
               Javascript, React, Nextjs, Redux, Tailwind
             </p>
           </div>
